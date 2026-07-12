@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pukis Delights - Jajan Pukis Premium & Lembut</title>
+  
+  <!-- Meta SEO -->
+  <meta name="description" content="Pukis Delights menyajikan kue pukis tradisional dengan tekstur super lembut dan aneka topping premium. 1 Box isi 10 pcs hanya Rp 20.000! Pesan mudah via WhatsApp.">
+  <meta name="keywords" content="kue pukis, pukis premium, pukis keju, pukis ceres, pukis oreo, pukis redvelvet, jajanan pasar, kuliner tradisional">
+  <meta name="author" content="Pukis Delights">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo">
+        <span class="logo-accent"><i class="fa-solid fa-cookie-bite"></i> Pukis</span>Delights
+      </a>
+      
+      <div class="nav-links" id="nav-links">
+        <a href="#home" class="nav-link">Beranda</a>
+        <a href="#about" class="nav-link">Keunggulan</a>
+        <a href="#menu" class="nav-link">Menu & Order</a>
+        <a href="#gallery" class="nav-link">Galeri</a>
+      </div>
+      
+      <div class="nav-actions">
+        <button class="cart-icon-btn" id="cart-icon-btn" aria-label="Buka Keranjang">
+          <i class="fa-solid fa-shopping-basket"></i>
+          <span class="cart-badge" id="cart-badge">0</span>
+        </button>
+        
+        <div class="menu-toggle" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="hero-tag">Kue Tradisional Premium</span>
+        <h1>Pukis Lembut dengan <span>Topping Melimpah</span></h1>
+        <p>Nikmati sensasi kelezatan kue pukis dengan tekstur yang sangat empuk, wangi kelapa-pandan alami, dan taburan aneka topping modern favoritmu. Dipanggang hangat setiap hari secara higienis.</p>
+        
+        <div class="hero-cta">
+          <a href="#menu" class="btn btn-primary"><i class="fa-solid fa-cash-register"></i> Pesan Sekarang</a>
+          <a href="#customizer-section" class="btn btn-secondary"><i class="fa-solid fa-wand-magic-sparkles"></i> Rancang Box Sendiri</a>
+        </div>
+      </div>
+      
+      <div class="hero-image-wrapper">
+        <div class="hero-circle-bg"></div>
+        <div class="hero-image">
+          <img src="assets/images/pukis-hero.jpg" alt="Pukis Delights Premium Box">
+        </div>
+        <div class="hero-floating-card">
+          <div>
+            <div class="price">Rp 20.000</div>
+            <div class="desc">Isi 10 Pcs / Box</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="about">
+    <div class="container">
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fa-solid fa-fire-burner"></i>
+          </div>
+          <h3>Freshly Baked</h3>
+          <p>Dipanggang langsung saat Anda memesan agar tetap hangat dan lezat.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fa-solid fa-award"></i>
+          </div>
+          <h3>Bahan Premium</h3>
+          <p>Menggunakan tepung pilihan, santan kental murni, dan mentega berkualitas tinggi.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fa-solid fa-spa"></i>
+          </div>
+          <h3>Tekstur Lembut</h3>
+          <p>Memiliki serat adonan yang halus sehingga tetap empuk walaupun sudah dingin.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fa-solid fa-cookie"></i>
+          </div>
+          <h3>Topping Melimpah</h3>
+          <p>Varian Ceres, Kacang, Keju, Stroberi, Redvelvet, dan Oreo yang melimpah.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="menu-section" id="menu">
+    <div class="container">
+      <div class="section-header">
+        <h2>Menu Pukis Pilihan</h2>
+        <p>Pilih paket menu praktis kami atau rancang box kustom Anda sendiri dengan topping favorit!</p>
+      </div>
+
+      <!-- Menu Grid -->
+      <div class="products-grid">
+        
+        <!-- Preset Item 1: Paket Campur Premium -->
+        <div class="product-card">
+          <div class="product-badge">Terlaris</div>
+          <div class="product-image">
+            <img src="assets/images/pukis-hero.jpg" alt="Paket Campur Premium 5 Varian">
+          </div>
+          <div class="product-info">
+            <h3>Paket Campur Premium</h3>
+            <p>Rekomendasi terbaik! Nikmati paduan 5 topping premium sekaligus: Ceres, Kacang, Keju, Stroberi, dan Oreo dalam satu box.</p>
+            <div class="product-meta">
+              <div class="product-price">Rp 20.000 <span class="product-unit">/ Box (10 pcs)</span></div>
+            </div>
+            <button class="btn btn-primary" id="add-campur-btn" style="width: 100%;">
+              <i class="fa-solid fa-cart-plus"></i> Tambah ke Keranjang
+            </button>
+          </div>
+        </div>
+
+        <!-- Preset Item 2: Paket Satu Rasa -->
+        <div class="product-card">
+          <div class="product-badge">Favorit</div>
+          <div class="product-image">
+            <img src="assets/images/pukis-menu.jpg" alt="Paket Satu Rasa">
+          </div>
+          <div class="product-info">
+            <h3>Paket Satu Rasa</h3>
+            <p>Ingin fokus pada rasa favoritmu saja? Pilih satu topping pilihan untuk seluruh isi box pukis hangat Anda.</p>
+            
+            <div class="product-selector">
+              <label for="single-topping-select">Pilih Topping:</label>
+              <select id="single-topping-select" class="product-select">
+                <option value="Ceres">Ceres (Cokelat)</option>
+                <option value="Kacang">Kacang Gurih</option>
+                <option value="Keju">Keju Parut Premium</option>
+                <option value="Stroberi">Selai Stroberi Manis</option>
+                <option value="Redvelvet">Red Velvet Crumbs</option>
+                <option value="Oreo">Oreo Cookies Crumbs</option>
+              </select>
+            </div>
+
+            <div class="product-meta">
+              <div class="product-price">Rp 20.000 <span class="product-unit">/ Box (10 pcs)</span></div>
+            </div>
+            <button class="btn btn-primary" id="add-single-btn" style="width: 100%;">
+              <i class="fa-solid fa-cart-plus"></i> Tambah ke Keranjang
+            </button>
+          </div>
+        </div>
+
+        <!-- Preset Item 3: Custom Box Builder (Full Width/Grid Span) -->
+        <div class="product-card customizer" id="customizer-section">
+          <div class="product-image" style="height: 100%; min-height: 250px;">
+            <img src="assets/images/pukis-box.jpg" alt="Buat Box Pukis Kustom Sendiri">
+            <div class="product-badge" style="background-color: var(--color-accent-red);">Rancang Sendiri</div>
+          </div>
+          
+          <div class="customizer-ui">
+            <div class="customizer-header">
+              <h3>Box Kustom (10 Pcs)</h3>
+              <p style="margin-bottom: 12px; font-size: 0.9rem;">Bebas pilih dan campur varian sesukamu! Tentukan jumlah pukis untuk setiap topping hingga total tepat 10 pcs.</p>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="customizer-progress">
+              <div class="progress-bar-container">
+                <div class="progress-bar-fill" id="progress-fill"></div>
+              </div>
+              <div class="progress-text" id="progress-text">
+                <span>0 dari 10 Pcs Terpilih</span>
+                <span>0%</span>
+              </div>
+            </div>
+
+            <!-- Visual Box Container -->
+            <div class="visual-box-container" id="visual-box">
+              <!-- Rendered via JS -->
+            </div>
+
+            <!-- Topping Controls Grid -->
+            <div class="topping-controls" id="topping-controls">
+              <!-- Rendered via JS -->
+            </div>
+
+            <div class="product-meta" style="margin-top: 24px; margin-bottom: 12px;">
+              <div class="product-price">Rp 20.000 <span class="product-unit">/ Box (10 pcs)</span></div>
+            </div>
+
+            <button class="btn btn-primary" id="add-custom-to-cart" style="width: 100%;" disabled>
+              Pilih 10 Pukis Lagi
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <h2>Galeri Produk Kami</h2>
+        <p>Intip kelembutan adonan pukis matang dan limpahan topping pilihan yang kami sajikan langsung untuk Anda.</p>
+      </div>
+      
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="assets/images/pukis-box.jpg" alt="Pukis Box Varian Taburan">
+        </div>
+        <div class="gallery-item">
+          <img src="assets/images/pukis-menu.jpg" alt="Kue Pukis Aneka Rasa Meja Kayu">
+        </div>
+        <div class="gallery-item">
+          <img src="assets/images/pukis-hero.jpg" alt="Mengambil Pukis Dengan Penjepit">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cart Slide-out Drawer -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <div class="cart-drawer" id="cart-drawer">
+    <div class="cart-header">
+      <h3><i class="fa-solid fa-shopping-cart"></i> Keranjang</h3>
+      <button class="close-cart-btn" id="close-cart-btn" aria-label="Tutup Keranjang">
+        <i class="fa-solid fa-times"></i>
+      </button>
+    </div>
+    
+    <div class="cart-body">
+      <!-- Empty Cart Message -->
+      <div class="empty-cart-message" id="empty-cart-msg">
+        <div class="empty-cart-icon"><i class="fa-solid fa-basket-shopping"></i></div>
+        <p>Keranjang belanja Anda masih kosong.<br>Ayo tambahkan pukis lezat sekarang!</p>
+        <a href="#menu" class="btn btn-secondary" onclick="closeCart()" style="padding: 10px 20px; font-size: 0.9rem;">Lihat Menu</a>
+      </div>
+
+      <!-- Items Container -->
+      <div id="cart-items" style="display: none;">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+    
+    <div class="cart-footer">
+      <div class="cart-summary-row">
+        <span>Total:</span>
+        <span class="cart-summary-val" id="cart-total-val">Rp 0</span>
+      </div>
+      <button class="btn btn-primary" id="checkout-btn" style="width: 100%;">
+        <i class="fa-solid fa-credit-card"></i> Lanjut ke Checkout
+      </button>
+    </div>
+  </div>
+
+  <!-- Checkout Modal -->
+  <div class="checkout-modal-overlay" id="checkout-modal-overlay">
+    <div class="checkout-modal">
+      <div class="checkout-modal-header">
+        <h3><i class="fa-brands fa-whatsapp" style="color: #25d366;"></i> Konfirmasi Pemesanan</h3>
+        <button class="close-checkout-btn" id="close-checkout-btn" aria-label="Tutup Checkout">
+          <i class="fa-solid fa-times"></i>
+        </button>
+      </div>
+      
+      <div class="checkout-modal-body">
+        <form id="checkout-form">
+          <div class="form-group">
+            <label for="customer-name">Nama Penerima *</label>
+            <input type="text" id="customer-name" class="form-control" placeholder="Masukkan nama lengkap Anda" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="customer-phone">Nomor WhatsApp *</label>
+            <input type="tel" id="customer-phone" class="form-control" placeholder="Contoh: 0812xxxxxxxx" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="delivery-method">Metode Pengiriman</label>
+            <select id="delivery-method" class="form-control">
+              <option value="Kirim ke Rumah (Delivery)">Kirim ke Rumah (Delivery)</option>
+              <option value="Ambil di Toko (Takeaway)">Ambil di Toko (Takeaway)</option>
+              <option value="Bayar di Tempat (COD)">Bayar di Tempat (COD)</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="customer-address">Alamat Pengiriman Lengkap *</label>
+            <textarea id="customer-address" class="form-control" placeholder="Tuliskan alamat lengkap pengantaran Anda" required></textarea>
+          </div>
+          
+          <div class="form-group">
+            <label for="order-notes">Catatan Pesanan (Opsional)</label>
+            <textarea id="order-notes" class="form-control" placeholder="Contoh: Keju parutnya dipisah / tidak terlalu cokelat / minta garpu plastik"></textarea>
+          </div>
+          
+          <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 16px; background-color: #25d366; border-color: #25d366; box-shadow: 0 4px 14px rgba(37, 211, 102, 0.4);">
+            <i class="fa-brands fa-whatsapp"></i> Kirim Pesanan via WhatsApp
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-info">
+        <div class="footer-logo">
+          <i class="fa-solid fa-cookie-bite" style="color: var(--color-primary);"></i> Pukis Delights
+        </div>
+        <p>Menyajikan kue pukis premium khas nusantara yang empuk, legit, dan higienis. Sempurna untuk hidangan keluarga atau acara spesial Anda.</p>
+      </div>
+      
+      <div class="footer-links">
+        <h4>Navigasi</h4>
+        <ul>
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#about">Keunggulan</a></li>
+          <li><a href="#menu">Menu & Order</a></li>
+          <li><a href="#gallery">Galeri</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-contact">
+        <h4>Hubungi Kami</h4>
+        <p><i class="fa-solid fa-phone" style="color: var(--color-primary);"></i> +62 812-9930-7958</p>
+        <p><i class="fa-solid fa-envelope" style="color: var(--color-primary);"></i> info@pukisdelights.com</p>
+        <p><i class="fa-solid fa-location-dot" style="color: var(--color-primary);"></i> Jl. Raya Pukis No. 12, Jakarta</p>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Pukis Delights. All Rights Reserved. Crafted beautifully for gourmet lovers.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>
